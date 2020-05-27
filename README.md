@@ -1,4 +1,4 @@
-# event-demo
+# Custom Event Demo code
 
 This is the source code of [codelabs-custom-event](https://github.com/AdobeDocs/adobeio-codelabs-custom-event)
 
