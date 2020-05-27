@@ -1,6 +1,8 @@
 # event-demo
 
-Welcome to my Adobe I/O Application!
+This is the source code of [codelabs-custom-event](https://github.com/AdobeDocs/adobeio-codelabs-custom-event)
+
+To register your app as event provider, follow [here](https://github.com/AdobeDocs/adobeio-codelab-event-provider-registration)
 
 ## Setup
 
