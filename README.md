@@ -2,11 +2,13 @@
 
 This is the source code of [codelabs-custom-event](https://github.com/AdobeDocs/adobeio-codelabs-custom-event)
 
-To register your app as event provider, follow [here](https://github.com/AdobeDocs/adobeio-codelab-event-provider-registration)
+Step 1: to register your app as event provider, follow [here](https://github.com/AdobeDocs/adobeio-codelab-event-provider-registration)
 
 ## Setup
 
 - Populate the `.env` file in the project root and fill it as shown [below](#env)
+(if you clone this repo please rename `dotenv` file to `.env`)
+- fill in the `manifest.ymp` with `orgId`, `apiKey`, `accessToken` from console integration and `providerId` and `eventCode` from step 1: register your app as event provider  
 
 ## Local Dev
 
