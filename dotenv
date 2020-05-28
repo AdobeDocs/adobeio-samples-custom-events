@@ -1,7 +1,8 @@
 # Specify your secrets here
 # This file should not be committed to source control
-
+# Please rename this file to .env 
+ 
 ## please provide your Adobe I/O Runtime credentials
 AIO_RUNTIME_AUTH=
 AIO_RUNTIME_NAMESPACE=
-AIO_LAUNCH_URL_PREFIX=
+AIO_LAUNCH_URL_PREFIX="https://experience.adobe.com/?devMode=true#/myapps/?localDevUrl="

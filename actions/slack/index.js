@@ -24,7 +24,7 @@
  *    - access the apiKey in your action through params.myApiKey
  */
 
-/* this is a sample action for how to receive aem events and sent a message to slack */
+/* this is a sample action for how to receive event and sent a message to slack */
 var request = require('request');
 
 /* default slackwebhook and channel add yours here and replace the TODO below */
