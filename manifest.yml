@@ -5,7 +5,7 @@ packages:
       event:
         function: actions/event/index.js
         web: 'yes'
-        runtime: 'nodejs:10'
+        runtime: 'nodejs:12'
         inputs:
           LOG_LEVEL: debug
           orgId: 
@@ -18,7 +18,7 @@ packages:
       slack:
         function: actions/slack/index.js
         web: 'yes'
-        runtime: 'nodejs:10'
+        runtime: 'nodejs:12'
         inputs:
           LOG_LEVEL: debug
         annotations:
