@@ -1,0 +1,30 @@
+application:
+  actions: actions
+  web: web-src
+  runtimeManifest:
+    packages:
+      my-app:
+        license: Apache-2.0
+        actions:
+          worker:
+            function: actions/event/index.js
+            web: 'yes'
+            runtime: 'nodejs:14'
+            limits:
+              concurrency: 10
+            inputs:
+              orgId: 
+              apiKey:
+              accessToken: 
+              providerId: 
+              eventCode:
+            annotations:
+              final: true
+        slack:
+          function: actions/slack/index.js
+          web: 'yes'
+          runtime: 'nodejs:12'
+          inputs:
+            LOG_LEVEL: debug
+          annotations:
+            final: true
