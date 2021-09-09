@@ -46,15 +46,6 @@ local serverless stack and also run your actions locally use the `aio app run --
   those out. Do not use illegal characters as this might break the deployment
   (e.g. `/`, `@`, `#`, ..).
 
-### `manifest.yml`
-
-- List your backend actions under the `actions` field within the `__APP_PACKAGE__`
-package placeholder. We will take care of replacing the package name placeholder
-by your project name and version.
-- For each action, use the `function` field to indicate the path to the action
-code.
-- More documentation for supported action fields can be found
-[here](https://github.com/apache/incubator-openwhisk-wskdeploy/blob/master/specification/html/spec_actions.md#actions).
 
 #### Action Dependencies
 
